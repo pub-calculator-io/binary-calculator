@@ -33,8 +33,7 @@ Libraries in use:
 2. Activate the [Binary Calculator](https://www.calculator.io/binary-calculator/ "Binary Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 == Usage ==
-* Add the shortcode `[ci_binary_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Binary Calculator to the sidebar through the `Appearance -> Widgets -> Binary Calculator` menu in WordPress.
+* Add the shortcode `[ci_binary_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_binary_calculator(); ?>` to your template where you would like the Binary Calculator to appear.
 
 == Screenshots ==
