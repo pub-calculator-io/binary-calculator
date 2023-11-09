@@ -13,6 +13,8 @@ Binary calculator for binary to decimal conversion, decimal to binary conversion
 
 Binary calculator for binary to decimal conversion, decimal to binary conversion, binary operations – addition, subtraction, multiplication, division.
 
+[Binary Calculator Homepage](https://www.calculator.io/binary-calculator/ "Binary Calculator Homepage")
+
 __Shortcode__
 
 Use the Binary Calculator shortcode:
