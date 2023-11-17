@@ -1,6 +1,6 @@
 === Binary Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: binary calculator, binary arithmetic, add binary numbers, binary addition online, binary subtraction tool, binary math calculator, binary to decimal conversion, calculate binary equations, online binary computation, bitwise operations calculator
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
