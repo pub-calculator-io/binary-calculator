@@ -1,4 +1,4 @@
-# Binary Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Binary Calculator Widget for WordPress
 
 Binary calculator for binary to decimal conversion, decimal to binary conversion, binary operations – addition, subtraction, multiplication, division.
 
