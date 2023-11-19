@@ -1,4 +1,4 @@
-=== Binary Calculator by www.calculator.io ===
+=== CI Binary calculator ===
 Contributors: calculatorio
 Tags: binary calculator, binary arithmetic, add binary numbers, binary addition online, binary subtraction tool, binary math calculator, binary to decimal conversion, calculate binary equations, online binary computation, bitwise operations calculator
 Requires at least: 5.0

@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Binary Calculator by www.calculator.io
+Plugin Name: CI Binary calculator
 Plugin URI: https://www.calculator.io/binary-calculator/
 Description: Binary calculator for binary to decimal conversion, decimal to binary conversion, binary operations – addition, subtraction, multiplication, division.
 Version: 1.0.0
