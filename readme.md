@@ -3,7 +3,6 @@
 Binary calculator for binary to decimal conversion, decimal to binary conversion, binary operations – addition, subtraction, multiplication, division.
 
 ![Binary Calculator Input Form](/assets/images/screenshot-1.png "Binary Calculator Input Form")
-![Binary Calculator Calculation Results](/assets/images/screenshot-2.png "Binary Calculator Calculation Results")
 
 ## Installation
 

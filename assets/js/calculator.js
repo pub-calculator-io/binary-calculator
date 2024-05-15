@@ -3,7 +3,7 @@ function calculate(){
     let value = input.get(elementId).raw();
     if(optional && !value) return '';
     if(!/^[01]+$/.test(value)) {
-      input.error(elementId, `The "${elementId}" must be a natural binary number.`);
+      input.error(elementId, `"${elementId}" must be a natural binary number.`);
     }
     return value;
   };

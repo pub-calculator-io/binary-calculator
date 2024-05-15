@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Binary Calculat
 == Screenshots ==
 
 1. The Binary Calculator Input Form.
-2. The Binary Calculator Calculation Results.
 
 == Installation ==
 

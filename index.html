@@ -32,7 +32,7 @@
                 </div>
                 <div class="calculator-content col tab tab--active" data-tab="0">
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col scientific-calculator,modulo-calculator,hex-calculator,math-equation-solver,integer-calculator  ">
                 			<p class="input__title">Value 1</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="value_1" value="10101010"  />
@@ -68,7 +68,7 @@
                 		</label>
                 	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col scientific-calculator,modulo-calculator,hex-calculator,math-equation-solver,integer-calculator  ">
                 			<p class="input__title">Value 2</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="value_2" value="11001100"  />
@@ -79,7 +79,7 @@
                 </div>
                 <div class="calculator-content col tab" data-tab="1">
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col scientific-calculator,modulo-calculator,hex-calculator,math-equation-solver,integer-calculator  ">
                 			<p class="input__title">Binary</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="binary" value="10101010"  />
@@ -88,7 +88,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col scientific-calculator,modulo-calculator,hex-calculator,math-equation-solver,integer-calculator  ">
                 			<p class="input__title">Decimal</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="decimal" value="170"  />
@@ -102,20 +102,25 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
+                	<script type="text/javascript" src="./assets/js/lib/math.min.js" async></script>
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row tab " data-tab="1">
                 
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Convert</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Convert</button>
                 </div>
+                
+                
                 
                 
                 
@@ -134,12 +139,11 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col tab tab--active" data-tab="0">
 	<p class="table-cell table-cell--dark table-cell--only-title">Answer</p>
 	<div class="table-cell">
-		<p class="result-text" id="result">101110110</p>
+		<p class="result-text animate" id="result">101110110</p>
 	</div>
 </div>
 
@@ -154,11 +158,11 @@
 			<tbody>
 				<tr>
 					<th>Binary to Decimal</th>
-					<td id="bin_to_dec">10101010 = 170</td>
+					<td id="bin_to_dec" class="animate">10101010 = 170</td>
 				</tr>
 				<tr>
 					<th>Decimal to Binary</th>
-					<td id="dec_to_bin">170 = 10101010</td>
+					<td id="dec_to_bin" class="animate">170 = 10101010</td>
 				</tr>
 			</tbody>
 		</table>
